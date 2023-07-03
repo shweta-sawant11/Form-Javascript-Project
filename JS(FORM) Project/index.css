@@ -1,0 +1,201 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&family=Moon+Dance&family=Source+Code+Pro:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body  {
+    /* background-color: #05073a; */
+    background: linear-gradient(135deg, #05073a, #dc0606ca);
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    /* color: white; */
+    text-align: center;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* section{
+    height:  500px;
+    width: 20%;
+    border: 2px solid grey;
+} */
+
+h1 {
+    color: white;
+    font-weight: 700;
+}
+
+#select1 {
+    height: 50px;
+    width: 80%;
+    background-color: lightblue;
+    border: 2px dotted black;
+ 
+}
+
+hr {
+    border-top: 3px dashed red;
+}
+
+/* .innerinp{
+    
+} */
+
+input {
+    margin: 10px 0 10px 0;
+   font-family: 'Poppins', sans-serif;
+    height: 50px;
+    background-color: #14ffe9;
+    border: 2px dotted black;
+}
+
+span {
+    cursor: pointer;
+}
+
+.inp {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn111 {
+    height: 35px;
+    width: 35px;
+    border: 1px dotted black;
+    /* background: none; */
+    /* padding: 10px 0 0 0; */
+    cursor: pointer;
+    margin: 0 0 0 60px;
+    background-color:#05073a;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.add{
+    height: 35px;
+    width: 35px;
+    border: 1px dotted black;
+    /* border-radius: 50px; */
+    background-color:#05073a;
+    color: white;
+    margin: 0 0 0 15px;
+    /* padding: 10px; */
+}
+
+/* button {
+    height: 40px;
+    width: 70px;
+    border: none;
+    background-color: red;
+    margin: 0 0 0 10px;
+    background-color: #05073a;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 50%;
+} */
+
+
+select {
+    width: 150px;
+}
+
+#screen2 span,
+#screen3 span {
+    display: none;
+}
+
+#screen2 input[placeholder="options"] {
+    display: none;
+}
+
+#screen2 input[type="Submit"] {
+    display: none;
+}
+
+input[type="Submit"] {
+    height: 50px;
+    width: 120px;
+    border-radius: 50px;
+    background-color: #14ffe9;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* .finalsub{
+    display: none;
+} */
+/* #screen2 button{
+    height: 50px;
+    width: 120px;
+    border-radius: 50px;
+    background: linear-gradient(#14ffe9,#ffeb3b,#ff00e0);
+    border: none;
+    font-family:  'Roboto Condensed', sans-serif;
+} */
+
+#screen2 #sltBtn {
+    display: none;
+}
+
+#screen2 #optBtn {
+    display: none;
+}
+
+#screen2 #optBtn1 {
+    display: none;
+}
+
+#screen2 input[placeholder="Select"] {
+    display: none;
+}
+
+.seldiv1 {
+    background-color: rgb(94, 16, 16);
+    border-top: 7px solid  #05073a;
+    border-bottom: 7px solid  #05073a;
+    border-left: 10px solid rgb(145, 37, 37);
+    border-right: 10px solid rgb(145, 37, 37);
+    border-radius: 80px;
+    padding: 15px;
+}
+
+.inp {
+    background-color:  lightblue;
+    border-top: 7px solid  #05073a;
+    border-bottom: 7px solid  #05073a;
+    border-left: 10px solid rgb(145, 37, 37);
+    border-right: 10px solid rgb(145, 37, 37);
+    border-radius: 80px;
+    margin: 15px;
+}
+
+
+#submit1{
+    height: 50px;
+    width: 30%;
+    background-color:  lightblue;
+    border-top: 7px solid  #05073a;
+    border-bottom: 7px solid  #05073a;
+    border-left: 10px solid rgb(145, 37, 37);
+    border-right: 10px solid rgb(145, 37, 37);
+    border-radius: 80px;
+    margin: 15px;
+}
+
+#fdiv{
+    display: none;
+    background-color:  lightblue;
+    border-top: 7px solid  #05073a;
+    border-bottom: 7px solid  #05073a;
+    border-left: 10px solid rgb(145, 37, 37);
+    border-right: 10px solid rgb(145, 37, 37);
+    border-radius: 80px;
+    margin: 15px;
+}
+
+.flabel{
+    padding: 10px 0 10px 0;
+}
